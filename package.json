@@ -1,0 +1,45 @@
+{
+  "name": "swingswingswing",
+  "version": "0.0.1",
+  "description": "Swing,Swing,Swing",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --copy-files",
+    "site:build": "webpack -p --config site/webpack.prod.js --progress --colors",
+    "site:dev": "node ./site/webpack.server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lvyuanjiao<lvyuanjiao@yeah.net>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "~6.22.2",
+    "babel-core": "~6.22.1",
+    "babel-eslint": "~7.1.1",
+    "babel-loader": "~6.2.10",
+    "babel-plugin-transform-class-properties": "~6.22.0",
+    "babel-plugin-transform-decorators-legacy": "~1.3.4",
+    "babel-plugin-transform-object-rest-spread": "~6.22.0",
+    "babel-plugin-react-transform": "~2.0.2",
+    "babel-preset-es2015": "~6.22.0",
+    "babel-preset-react": "~6.22.0",
+    "express": "~4.14.1",
+    "eslint": "~3.13.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "~3.0.2",
+    "react-transform-hmr": "~1.0.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "~1.10.1",
+    "webpack-hot-middleware": "~2.17.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
+  }
+}
