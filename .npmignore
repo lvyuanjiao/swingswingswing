@@ -1,0 +1,8 @@
+.idea/
+.DS_Store
+*.iml
+*.log
+site/
+src/
+test/
+node_modules/
